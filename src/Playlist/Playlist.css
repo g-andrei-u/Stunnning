@@ -1,0 +1,29 @@
+#playlist {
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+#playlist-button {
+    margin-top: 10px;
+    letter-spacing: 0.9px;
+    background-color: #651e5e;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #4d0c47;
+    border-radius: 20px;
+    width: 20%;
+    height: 15%;
+}
+
+#playlist-button:hover {
+    background-color: white;
+    color: #4d0c47;
+    transition: all 300ms;
+}
+
+#playlist-button:active {
+    background-color: rgb(173, 140, 170);
+    transition: all 100ms;
+}
