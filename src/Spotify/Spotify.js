@@ -1,6 +1,6 @@
-const clientId = '4WNcduiCmDNfmTEz7JvmLv'; // Insert client ID here.
-const redirectUri = 'http://localhost:3000/spotify23.p.rapidapi.com/tracks/?ids=4WNcduiCmDNfmTEz7JvmLv'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
-let accessToken = '56781d6a76msh68d30568ea472cap1b0914jsn8da78526d298';
+const clientId = ''; // Insert client ID here.
+const redirectUri = 'http://localhost:3000/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+let accessToken;
 
 const Spotify = {
   getAccessToken() {
